@@ -13,11 +13,12 @@ Embeddable JS engine supporting a sane JS subset while enabling go interoperabil
 
 ## Non-Features
 
+- arrow functions
 - inheritance, object oriented programming
 - JavaScript quirks:
-    - type coercion (runtime errors instead of attempting to perform type casts)
-    - comparison with `==` results in a parser error
-    - scoping with `var` disallowed, will result in a parser error
+  - type coercion (runtime errors instead of attempting to perform type casts)
+  - comparison with `==` results in a parser error
+  - scoping with `var` disallowed, will result in a parser error
 - compatibility with ECMA-262
 
 ## Motivation
